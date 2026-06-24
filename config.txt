@@ -1,0 +1,34 @@
+# TELEGRAM CONFIG
+TOKEN=""
+CHAT_ID=""
+
+# LOGS
+LOG_USUARIOS="logs/usuarios.log"
+LOG_RESPALDO="logs/respaldo.log"
+LOG_MONITOREO="logs/monitoreo.log"
+LOG_SERVICIOS="logs/servicios.log"
+LOG_RED="logs/red.log"
+LOG_INVENTARIO="logs/inventario.log"
+
+# RESPALDO
+RUTA_RESPALDO="./backups"
+DIRECTORIOS_RESPALDO="/$HOME/backup_prueba"
+
+# MONITOREO
+CPU_LIMITE=50
+DISCO_LIMITE=50
+
+# SERVICIOS
+SERVICIOS="ssh cron apache2"
+
+# RED
+HOSTS="192.168.1.1 8.8.8.8 localhost"
+PUERTOS="22 80 443"
+
+# REMOTO
+USUARIO_REMOTO="cliente"
+SCRIPT_REMOTO="script.sh"
+HOSTS_REMOTOS="8.8.8.8 192.168.1.11"
+
+# INVENTARIO
+RUTA_INVENTARIO="/var/log"
